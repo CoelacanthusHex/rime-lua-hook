@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Path
+Target = usr/share/rime-data/lua/*
+
+[Action]
+Description = Update Rime Lua Plugin...
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/rime-lua
+NeedsTargets

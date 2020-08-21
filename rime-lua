@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+cat /usr/share/rime-data/lua-recipe/*.lua > /usr/share/rime-data/rime.lua
